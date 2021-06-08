@@ -28,7 +28,7 @@ namespace Aplicación_Vec_Basilioo
 
                  for (int i=0; i<=9; i++)
                  {
-                    Console.WriteLine("i: " + i);
+                    
                     Console.Write("Ingrese una letra: ");
                     dato[i] = char.Parse(Console.ReadLine());
 
@@ -37,7 +37,7 @@ namespace Aplicación_Vec_Basilioo
                     Console.ReadKey();
                 }
 
-               // *Console.WriteLine("------------------" );
+               
             
                 if (e==2)
                 {
@@ -49,7 +49,7 @@ namespace Aplicación_Vec_Basilioo
                  }
                     Console.ReadKey();
                 }
-                //* Console.WriteLine("------------------");
+                
 
                 else if(e==3)
                 {
